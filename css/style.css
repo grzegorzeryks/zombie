@@ -1,0 +1,42 @@
+.container {
+  width: 800px;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.zombie {
+  height: 380px;
+  width: 200px;
+  background: url("../images/walkingdead.png") no-repeat;
+  animation-name: walk;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: steps(10);
+  left: 500px;
+  /* position: absolute; */
+  transition: all 6s;
+}
+
+@keyframes walk {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: -2000px;
+  }
+}
+
+
+/* .zombie:hover{
+  left: 1px;
+} */
+
+.blood {
+  display: none;
+  position: relative;
+  left: 81px;
+  top: 33px;
+}
