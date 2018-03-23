@@ -1,7 +1,7 @@
 // to load/buffer your sound:
 var snd = new Audio("gun.wav");
 var cowSnd = new Audio("cowboy.mp3")
-cowSnd.play();
+
 
 var zombie = document.querySelector('.zombie');
 var blood = document.querySelector('.blood')
