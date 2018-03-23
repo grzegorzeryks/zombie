@@ -12,5 +12,5 @@ zombie.addEventListener("click", function() {
   console.log("działa");
   blood.style.display = "block";
   zombie.style.animationPlayState = "paused";
-  snd.play();
+  cowSnd.play();
 })
