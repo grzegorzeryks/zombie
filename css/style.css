@@ -17,7 +17,7 @@
   animation-timing-function: steps(10);
   left: 500px;
   /* position: absolute; */
-  transition: all 6s;
+  transition: all 1s;
 }
 
 @keyframes walk {
